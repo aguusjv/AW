@@ -29,14 +29,14 @@ const Footer: React.FC = () => {
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-12 mb-20">
           <div className="flex items-center gap-5">
-            <div className="h-14 w-14 flex-shrink-0 flex items-center justify-center bg-[#181f38] rounded-sm overflow-hidden shadow-sm">
+            {/* <div className="h-14 w-14 flex-shrink-0 flex items-center justify-center bg-[#181f38] rounded-sm overflow-hidden shadow-sm">
               <img 
                 src={CONTACT_CONFIG.logoUrl} 
                 alt="Logo" 
                 className="h-full w-full object-contain"
                 onError={(e) => (e.currentTarget.style.display = 'none')}
               />
-            </div>
+            </div> */}
             <div className="flex flex-col -space-y-1">
               <span className="text-[#181f38] text-2xl font-bold tracking-tight">Arquitectura</span>
               <span className="text-[#181f38] text-2xl font-medium tracking-tight">Web</span>
@@ -56,12 +56,12 @@ const Footer: React.FC = () => {
             >
               Política de Datos
             </button>
-            <button 
+            {/* <button 
               onClick={handleTechContact}
               className="text-slate-400 hover:text-slate-600 transition-colors text-xs font-medium italic"
             >
               Asistencia Técnica
-            </button>
+            </button> */}
           </div>
         </div>
         
